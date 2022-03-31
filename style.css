@@ -1,0 +1,45 @@
+body {
+background-color: cornflowerblue;
+font-family: 'Roboto', sans-serif;
+}
+.screen {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color:ghostwhite;
+    width:70vw;
+    height:50vh;
+    margin: 4rem auto;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.gadget {
+   text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.gadget:hover {
+    background-color:lightgray;
+}
+
+.app {
+    color:blue;
+}
+.amount {
+    color:blue
+}
+.paragraph {
+    color:grey;
+}
+
+.gadget img {
+    width: 50px;
+    height: 50px;
+}
+
+.month-numeric {
+    font-size: 25px;
+    font-weight: bold;
+}
